@@ -1,0 +1,51 @@
+button {
+    color:white;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom:20px;
+}
+input{
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: black;
+    margin-top: 20px;
+    margin-left:50px;
+    margin-right:0px;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin-bottom: 90px;
+    margin-left:0px;
+}
+p{
+    font-size: 50px;
+}
+pre{
+    display: inline-block;
+}
+body{
+    background-image: url('Input Bg.jpg');
+}
+  
+  #box {
+    border: 1px solid black;
+    margin-top: 50px;
+    top: 150px;
+    width: 700px;
+    height: auto;
+   background-color:whitesmoke;
+   margin-right: 50px;
+   margin-left: 375px;
+   border-radius: 10px;
+  }
+h1{
+    color: rgb(225, 33, 78);
+    margin-left: 20px;
+    font-size: 50px;
+}
