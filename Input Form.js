@@ -30,8 +30,16 @@ function sub() {
     alert("Enter Valid Credentials");
   }else{
   document.getElementById("disp").innerHTML = `
-  <center>
-  <p>
+  <div style="border: 1px solid black;
+  margin-top: 50px;
+  top: 150px;
+  width: 700px;
+  height: 1050px;
+ background-color:whitesmoke;
+ margin-right: 50px;
+ margin-left: 100px;
+ border-radius: 10px;">
+  <p style="font-size:30px;">
   Name of the person:${fname} ${lname}
   <br></br>
   Age is:${age}
@@ -45,12 +53,14 @@ function sub() {
   Email ID:${email}
   <br></br>
   </p>
-  </center>`;
+  </div>`;
   }
-}
-function Hide() {
   var x = document.getElementById("box").style.display="none";
+  var y = document.getElementById("cl").style.display="block";
+}
+function Hide(){
   var y = document.getElementById("cl").style.display="none";
   window.print();
 }
+
 
