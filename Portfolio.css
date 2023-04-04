@@ -1,0 +1,51 @@
+#pss {
+  background-color: peachpuff;
+  font-style: bold;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 80px;
+  height: 300px;
+}
+
+#pic {
+  align-items: center;
+  border-color: black;
+  border-radius: 100px;
+  border-style: double;
+  border-inline-color: pink;
+  border-inline-width: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-width: 60%;
+  padding: 15px;
+  background-color: #f8f0b6;
+  border-color: #ee2c17;
+}
+#sk {
+  margin-right: 100px;
+  font-weight: 600px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  background-color: peachpuff;
+  text-align: right;
+  float: right;
+}
+#th {
+  font-variant-caps: small-caps;
+  font-size: large;
+}
+
+#div3 {
+  font-size: larger;
+  color: purple;
+  background-color: rgb(251, 240, 255);
+  font-weight: 500px;
+  margin-left:100px;
+  margin-right: 100px;
+}
+#pp {
+  font-style: italic;
+}
