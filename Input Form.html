@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            Input Form
+        </title>
+        <link href="Input Form.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="box">
+            <h1>Registration Form</h1>
+        <center>
+            <label for="fname"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Enter First Name:  </pre></label>
+            <input type="text" placeholder="First Name" id="b_fname" name="fname" required>
+            <br></br>
+            <label for="lname"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Enter Last Name:  </pre></label>
+            <input type="text" placeholder="Last Name" id="b_lname" name="lname" required>
+            <br></br>
+            <label for="dob"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Enter Date of Birth:</pre></label>
+            <input type="date" id="b_dob" name="dob" required>
+            <br></br>
+        <label for="age"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Enter Age:            </pre></label>
+        <input type="text" placeholder="Age" id="b_age" name="age" required>
+        <br></br>
+        <label for="email"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Enter email:          </pre></label>
+        <input type="text" placeholder="abc@gmail.com" id="b_email" name="email" required><p id="val1" style="color:red;font-size:20px;"></p>
+    <label for="pwd"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Enter password:     </pre></label>
+    <input type="password" id="b_password" name="pwd" required><p id="val2" style="color:red;font-size:20px;"></p>
+    <label for="cpwd"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Confirm password:  </pre></label>
+    <input type="password" id="b_cpassword" name="cpwd" required><p id="val3" style="color:red;font-size:20px;"></p>
+        <label for="state"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Select State:                    </pre></label>
+        <select style="width: 350px; height: 50px; border-radius: 5px;" name="state">
+            <option></option>
+            <option value="AndhraPradesh">Andhra Pradesh</option>
+            <option value="ArunachalPradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Chattisgarh">Chattisgarh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="HimachalPradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Jammu&Kashmir">Jammu & Kashmir</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="MadhyaPradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="sikkim">Sikkim</option>
+            <option value="Tamilnadu">Tamilnadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="Uttarpradesh">Uttarpradesh</option>
+            <option value="WestBengal">West Bengal</option>
+        </select><br></br>
+    </center>
+<label for="Gender" style="margin-left:60px;">Enter Gender:</label><br>
+ <input type="radio" id="b_male" name="Gender" value="Male" style="margi-right:0px;margin-bottom:0px">
+ <label for="Male" style="margin-left:0px;margin-top:0px;">Male</label>
+ <input type="radio" id="b_female" name="Gender" value="Female">
+ <label for="Female">Female</label>
+    <center>
+    <label for="faname"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Enter Father Name: </pre></label>
+    <input type="text" placeholder="Father Name" id="b_faname" name="faname" required>
+    <br></br>
+    <label for="moname"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Enter Mother Name: </pre></label>
+    <input type="text" placeholder="Mother Name" id="b_moname" name="moname" required>
+    <br></br>
+    <label for="pin"><pre style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 200;">Pincode:                  </pre></label>
+    <input type="text" placeholder="Pincode" id="b_pin" name="pin" required>
+    <br></br>
+   <a href="#disp"> <button onclick="sub()" type="submit">Submit</button> </a>
+    </center>
+</div>
+<center>
+<button onclick="Hide()" style="margin-left:1000px;background-color: rgb(78,225, 123)" id="cl">Print Details</button>
+<p id="disp"></p>
+</center>
+    <script src="Input Form.js"></script>
+    </body>
+    </html>
