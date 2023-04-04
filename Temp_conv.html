@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="Temp_conv.css">
+    </head>
+    <body>
+        <div id="box">
+            <center>  <h1>Temperature Converter</h1></center>
+            <br>
+     <label for="deg">Degrees:</label>
+     <label for="Type" style="margin-left:250px;">Type:</label><br>
+        <input type="number" name="deg" id="b_deg">
+        
+            <select id="Type" name="Type">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                </select>
+                <p>Result:</p>
+            <p id="result"></p>
+          <center>  <button onclick="t()">Convert</button></center>
+
+        </div>
+        <script src="temp_conv.js"></script>
+    </body>
+</html>
