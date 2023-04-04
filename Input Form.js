@@ -50,6 +50,7 @@ function sub() {
 }
 function Hide() {
   var x = document.getElementById("box").style.display="none";
+  var y = document.getElementById("cl").style.display="none";
   window.print();
 }
 
