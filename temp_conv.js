@@ -13,5 +13,5 @@ function t(){
     res=deg - 273.15;
     }
     document.getElementById('result').innerHTML=
-    `<u>${res}</u>`;
+    `<u>${res} C</u>`;
 }
